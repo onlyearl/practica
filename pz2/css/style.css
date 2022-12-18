@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(41,43,44);
+    
+}
+
+
+.container {
+    width: 1200px;
+    background-color: rgb(66, 64, 64);
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(48, 48, 52);
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    color: blue;
+    font-size: 25px;
+align-items: center;
+
+}
+.box1{
+ background-color: rgb(48, 48, 52);
+    margin-left: 17.6%;
+    margin-top: 25px;
+    height: 250px;
+    width: 200px;
+   }
+
+.box2{
+    background-color:rgb(48, 48, 52);
+    margin-left: 17.6%;
+    margin-top: 25px;
+    height: 250px;
+    width: 200px;
+    
+}
+
+.box3{
+     position: absolute;
+    
+    height: 200px;
+    width: 140px;
+    margin: 27px;
+    background: whitesmoke;
+    border-radius: 6px;
+   
+}
+
+.box4{
+    
+    background-color: rgb(48, 48, 52);
+    height: 300px;
+    width: 1000px;
+    margin-left: 30%;
+    display: flex;
+}
+
+.onepanel {
+    margin-left: 30%;
+   
+    background-color: rgb(48, 48, 52);
+    height: 350px;
+    width: 970px;
+margin-top: -530px;
+    display: flex;
+
+}
+
+.inside {
+    margin: 20px;
+    border-radius: 6px;
+    background: whitesmoke;
+    height: 300px;
+    width: 1500px;
+}
+
+
+
+.twopanel {
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    background-color: rgb(48, 48, 52);
+    height: 150px;
+    width: 970px;
+     margin-left: 30%;
+     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.minibox {
+    border-radius: 6px;
+    background: whitesmoke;
+    height: 80px;
+    width: 160px;
+    margin: 30px;
+}
+
+.threepanel {
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: rgb(48, 48, 52);
+    height: 220px;
+    width: 970px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boxmenu{
+    list-style: none;
+    color: whitesmoke;
+    padding: 40px;
+    margin-left: 16px;
+     line-height: 40px;
+     font-size: 20px;
+
+}
+
+
+p
+{
+    color: whitesmoke;
+}
+
+.menu
+{
+    padding: 30px;
+    color: whitesmoke;
+   
+}
