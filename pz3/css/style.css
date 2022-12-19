@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(66,66,66);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.up {
+    position: fixed;
+    width: 1140px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(64, 0, 128);
+
+}
+
+.up_item {
+    margin: 0 15px;
+    color: black;
+}
+
+.header_logo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 20px;
+    color: rgb(225, 174, 205);
+}
+
+.nav_up {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color:rgb(225, 174, 201)
+}
+
+.img {
+    min-width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+
+}
+
+.one, .two {
+    display: flex;
+    align-items: center;
+}
+
+.two {
+    flex-direction: row-reverse;
+}
+
+.two_img {
+    margin-right: 10px;
+}
+
+.two_text {
+    text-align: right;
+    padding: 30px;
+}
+
+.one_img  {
+    margin-right: 30px;
+}
+
+.one_text, .two_text {
+    line-height: 20px;
+     padding: 30px;
+
+}
+
+.price_item {
+    max-width: 300px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price_img {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(164, 205, 241);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.price_text {
+    margin: 15px 0;
+}
+
+.price_bth {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 6px;
+    color: whitesmoke;
+    background-color: rgb(52, 141, 230);
+}
+
+.price_bth:hover {
+    background-color: blue;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.card_item {
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.shapka ul {
+    list-style: none; 
+}
+
+
+.shapka li {
+   margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot {
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 0, 128);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px  20px; 
+    color: rgb(225, 174, 201)
+}
+
+.main{
+    padding-top: 90px;
+}
+
+
+
+.redbox{
+     height: 200px;
+    background:rgb(225, 174, 201)
+    border-radius: 6px;
+    position: relative;
+    padding: 0px;
+}
+
+.rbox{
+    position: absolute;
+    background: whitesmoke;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    
+    
+}
+
+.right{
+
+    right: 0px;
+}
+
+.leftbottom{
+
+    bottom: 0px;
+}
+
+.rightbottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+.center{
+right:0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+margin: auto;
+}
